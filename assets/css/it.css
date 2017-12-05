@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+.menyit{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+}
+
+.menyit ul{
+    display: flex;
+    width: 50%;
+    height: 70px;
+    list-style: none;
+    background-color: red;
+    
+    
+}
+
+.menyit ul li {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menyit ul li a{
+    display: flex;
+    font-size: 25px;
+    font-family: serif;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    
+    
+}
+
