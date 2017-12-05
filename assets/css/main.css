@@ -1,0 +1,425 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    
+}
+
+html, body{
+    height: 100%;
+}
+
+.meny{
+    display: flex;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    width: 100%;
+/*    justify-content: space-between;*/
+}
+
+.meny ul{
+    display: flex;
+    float: right;
+    margin: 0;
+/*    margin-left: 195px;*/
+    padding: 0;
+    justify-content:center;
+   
+  
+        
+    background-color:;
+    width: 50%;
+    height: 110px;
+    list-style: none;
+   
+    
+}
+
+.meny ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:;
+    
+    width: 100%;
+    margin-left: 15px;
+    border-right: 3px solid white;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+   
+}
+
+.meny ul li a{
+    text-decoration: none;
+    font-size: 27px;
+    
+    font-family: serif;
+    letter-spacing: 2px;
+    color: white;
+    border-right: 2px slid white;
+   
+}
+
+.meny div{
+    display: flex;
+    
+    border-right: 5px solid white;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+    
+}
+
+.meny h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:orange;
+    font-family: serif;
+    font-size: 22px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.meny p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: cursive;
+    font-size: 13px;
+    letter-spacing: .5px
+    
+}
+
+
+
+
+
+.fulsection{
+    height: 100%;
+    background-color: aqua;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.halfsection{
+    height: 50%;
+    background-color: white;
+    
+}
+
+.om{
+    display: grid;
+    grid-gap: 5px;
+
+  
+    
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "asideleft main asideright"
+        "asideleft main asideright";
+    
+
+    
+}
+
+.asideleft{
+    display:;
+    grid-area: asideleft;
+    background-color: ;
+/*    background-image: url(../images/math.jpg);*/
+    margin:0;
+    padding: 9px;
+    font-size: 20px;
+    font-family: serif;
+    
+    border-right: 2px solid black;
+    border-top-right-radius: 9px;
+    background-image: url(../images/image1.png);
+   
+   
+}
+
+.asideleft h2{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    letter-spacing: 1.5px;
+    
+    
+}
+
+
+
+
+
+.main{
+    grid-area: main;
+    background-color:;
+    padding: 7px;
+    border-right: 2px solid black;
+    border-top-right-radius: 9px;
+    background-image: url(../images/image1.png);
+    
+}
+
+.main p{
+    font-size: 20px;
+    font-family: serif;
+    
+    
+}
+
+.main a{
+    font-size: 20px;
+    font-family: fantasy;
+    color: black;
+}
+
+.asideright{
+    grid-area: asideright;
+    background-color: white;
+    padding: 9px;
+    background-image: url(../images/image1.png);
+    
+    
+    
+}
+
+.asideright p{
+    font-size: 20px;
+    font-family: serif;
+    
+    
+}
+
+.asideright a{
+    color: black;
+    font-size: 20px;
+    font-family:fantasy;
+    
+    
+}
+
+
+.pageone{
+    background-image: url(../images/internetlearning.jpg);
+}
+
+.pagetwo{
+    background-image: url(../images/two.jpg);
+}
+
+.pagethree{
+    background-image: url(../images/three.jpg);
+}
+
+
+.webdesign{
+    display: grid;
+    background-color: white;
+    grid-gap: 5px;
+    width: 100%;
+    
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+        "webb coding"
+        "webb coding";
+}
+
+.webb{
+    grid-area: webb;
+    border-right: 2px solid black;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 9px;
+    background-image: url(../images/image1.png);
+   
+    
+    
+}
+
+.webb p{
+    font-size: 20px;
+    font-family: serif;
+    margin-left: 25px
+    
+}
+
+.webb a{
+    color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    
+}
+
+.coding{
+    grid-area: coding;
+    border-left: 2px solid black;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    padding: 9px;
+    
+    background-image: url(../images/image1.png);
+}
+
+.coding h2{
+    font-size: 25px;
+    font-family:serif;
+}
+
+.coding p{
+    font-size: 20px;
+    font-family: serif;
+    margin-left: 5px;
+    
+    
+}
+
+
+.coding a{
+    color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+.footer{
+    display: grid;
+    grid-gap: 5px;
+    width: 100%;
+    height: 275px;
+    background-color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+        "mypage mypage"
+        "kontakt socialmedia "
+        "gmail fac"
+        "phone insta";
+}
+
+.mypage{
+    grid-area: mypage;
+    background-color:;
+    
+    display: flex;
+    font-size: 26px;
+    font-family: serif;
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 2px;
+}
+.mypage p{
+    border-bottom: 5px solid orange;
+}
+
+.kontakt{
+    display: flex;
+    grid-area: kontakt;
+    background-color:;
+    color: white;
+    font-size: 25px;
+    font-family: serif;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.kontakt p{
+    border-bottom: 3px solid orange;
+}
+
+.socialmedia{
+    display: flex;
+    grid-area: socialmedia;
+    color: white;
+    font-size: 25px;
+    font-family: serif;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.socialmedia p{
+    border-bottom: 3px solid orange;
+}
+
+.gmail{
+    display: flex;
+    grid-area: gmail;
+    color: white;
+    font-size: 17px;
+    font-family: serif;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.fac{
+    display: flex;
+/*    background-color: red;*/
+    
+    grid-area:fac;
+    color: white;
+    font-size: 17px;
+    font-family:fantasy;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px
+    
+    
+
+}
+
+.phone{
+    display: flex;
+    grid-area: phone;
+    color: white;
+    font-size: 17px;
+    font-family: serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.insta{
+    display: flex;
+    grid-area: insta;
+    color: white;
+    font-size: 17px;
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.insta a{
+    color: white;
+}
+
+
+
+
