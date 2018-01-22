@@ -6,6 +6,7 @@
 
 html, body{
     height: 100%;
+    background-color: skyblue;
 }
 
 
@@ -15,31 +16,44 @@ html, body{
     width: 100%;
     background-color: rgba(0, 0, 0, .6);
     position: fixed;
+    justify-content: space-between;
+    
+    
 }
 
-.menyit ul{
+.itbody{
+    background-color: skyblue;
+    height: 270px;
+    width: 100%;
+}
+
+.menyleft{
     display: flex;
-    width: 50%;
+    width: 40%;
     height: 70px;
     list-style: none;
-    background-color: red;
+/*    background-color:aqua;*/
+    justify-content: space-around;
+    padding: 0;
+  
     
     
 }
+
+
 
 .menyit ul li {
     display: flex;
-    width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    list-style: none;
     
 }
 
 .menyit ul li a{
     display: flex;
-    font-size: 25px;
+    font-size:25px;
     font-family: serif;
-    justify-content: center;
     align-items: center;
     text-decoration: none;
     letter-spacing: 1px;
@@ -48,3 +62,33 @@ html, body{
     
 }
 
+.menyright{
+    display: flex;
+    width: 25%;
+    height: 70px;
+    list-style: none;
+    justify-content: space-between;
+/*    background-color: red;*/
+    padding: 0;
+    
+}
+
+.menyright li{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+    list-style: none;
+}
+
+.menyright li a{
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    font-family: serif;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+}
